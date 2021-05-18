@@ -1,4 +1,5 @@
 class Grade:
+
     def setgrade(self,kor,math,eng):
         self.kor = kor
         self.math = math
