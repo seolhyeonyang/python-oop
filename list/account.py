@@ -13,7 +13,7 @@ class Account(object):
         return f'{r}{r}{r}-{r}{r}-{r}{r}{r}{r}{r}{r}'
 
     def get_account(self):
-        return f'은행: {self.bank_name}, 예금주: {self.name}, 계좌번호: {self.number}, 잔액: {self.money} '
+        return f'은행: {self.bank_name}, 예금주: {self.name}, 계좌번호: {self.number}, 잔액: {self.money}'
 
     @staticmethod
     def main():

@@ -28,7 +28,7 @@ class Contacts(object):
                 for i in ls:
                     print(f'출력결과 {i.get_contact()}')
             elif menu == '3':
-                del_name =input(('삭제할 이름: '))
+                del_name = input(('삭제할 이름: '))
                 for i, j in enumerate(ls):
                     if j.name == del_name:
                         del ls[i]
